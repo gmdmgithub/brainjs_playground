@@ -11,3 +11,21 @@ network.train([
 ]);
 const res = network.run([1,0,0])
 console.log(`Our res ${res}`);
+
+const gameNetwork = new brain.NeuralNetwork();
+gameNetwork.train([
+    { input: [1, 2], output: [1] }, // Team 2 wins
+    { input: [1, 3], output: [1] }, // Team 3 wins
+    { input: [2, 3], output: [0] }, // Team 2 wins
+    { input: [2, 4], output: [1] }, // Team 4 wins
+    { input: [1, 2], output: [0] }, // Team 1 wins
+    { input: [1, 3], output: [0] }, // Team 1 wins
+    { input: [3, 4], output: [0] }, // Team 3 wins
+    { input: [5, 4], output: [0] }, // Team 5 wins
+    { input: [1, 5], output: [0] } //team 1 win
+  ]);
+  
+  const output = gameNetwork.run([1, 4]);
+
+
+console.log(`Expected probability is: ${output}`);

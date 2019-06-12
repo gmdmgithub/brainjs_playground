@@ -1,4 +1,4 @@
-# Simple Machine Learning based on brain.js
+# Simple Machine Learning (neural network) based on brain.js
 
 ## install most important packages at start
 
@@ -7,14 +7,20 @@ $ npm init -y
 $ npm i brain.js
 ```
 
-## write sapmle code
+## write sample code based on
 
 https://coderoncode.com/machine/learning/2016/06/06/machine-learning-a-simple-neural-network.html
 
 ## run the code
 
 ```node
-$ npm run test
+$ npm run dev
 or 
 $ node ./js/main.js
+```
+
+## second example based on recurrent Neuron Network
+
+```node
+$ npm run devR
 ```
