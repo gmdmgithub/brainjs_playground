@@ -1,10 +1,11 @@
 {
   "name": "brainjs",
   "version": "1.0.0",
-  "description": "```node\r $ npm init -y\r $ npm i mongodb express socket.io dotenv\r ```",
-  "main": "index.js",
+  "description": "brain js playground",
+  "main": "./js/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node .\\js\\main.js"
   },
   "keywords": [],
   "author": "",
