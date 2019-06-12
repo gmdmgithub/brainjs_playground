@@ -4,5 +4,5 @@
 
 ```node
 $ npm init -y
-$ npm i brainjs
+$ npm i brain.js
 ```
