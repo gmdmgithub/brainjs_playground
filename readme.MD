@@ -24,3 +24,9 @@ $ node ./js/main.js
 ```node
 $ npm run devR
 ```
+
+## inside the browser import the last cdn of brain js
+
+```
+<script src="https://cdn.rawgit.com/BrainJS/brain.js/45ce6ffc/browser.js"></script>
+```
