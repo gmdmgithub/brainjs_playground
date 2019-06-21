@@ -40,7 +40,7 @@ const result = network.run({
   freeSulfurDioxide: 0.13,
   totalSulfurDioxide: 0.29,
   density: 0.09988,
-  ph: 0.352,
+  ph: 0.31,
   sulphates: 0.052,
   alcohol: 1.2
 });

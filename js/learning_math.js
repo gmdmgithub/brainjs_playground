@@ -52,6 +52,7 @@ const trainingData = [
 // [0,0,1,0,0,0,0,0,0,0,0,0];
 // [1,0,0,0,0,0,0,0,0,0,0,0];
 
+// LSTM - Long Short Time Memory
 const net = new brain.recurrent.LSTM({ hiddenLayers: [20] });
 
 net.train(trainingData, { errorThresh: 0.025 });
